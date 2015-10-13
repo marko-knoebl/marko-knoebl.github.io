@@ -2,8 +2,13 @@
 <meta charset="utf-8"/>
 <html>
   <head>
+    <!--angular-->
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular-sanitize.js"></script>
+    <!--bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
     <script src="website.js"></script>
     <link rel="stylesheet" href="website.css">
   </head>
@@ -12,12 +17,12 @@
     <div ng-bind-html="website.contents[website.selected].body[website.language]"></div>
     <ul>
       <li ng-repeat="(key, content_) in website.contents track by $index">
-        <a ng-click="website.selected=$index">{{content_.title[website.language]}}</a>
+        <a href="" ng-click="website.selected=$index">{{content_.title[website.language]}}</a>
       </li>
     </ul>
     <ul>
       <li ng-repeat="(key, value) in website.langs track by $index">
-        <a ng-click="website.language=key">{{value}}</a>
+        <a href="" ng-click="website.language=key">{{value}}</a>
       </li>
     </ul>
   </body>

@@ -51,11 +51,11 @@ angular.module('todoApp', ['ngSanitize'])
             '<a href=https://kubos.pythonanywhere.com/solids target="_blank">Kubos Solids</a>.</p>' +
             'In general I\'m interested in anything related to web programming, including JavaScript and Python - ' +
             'this small website is in fact written entirely in JavaScript.</p>' +
-            'I have previously worked with: <br>' +
+            '<p>I have previously worked with: <br>' +
             '<em>Python, JavaScript, C#</em>, Visual Basic, PHP, CoffeeScript<br>' +
             '<em>HTML, CSS, HTTP, three.js, Django</em>, jQuery, SVG, webapp2, OAuth<br>' +
             'NumPy, SymPy, SciPy, Sage, Open Cascade, Mathematica, MATLAB<br>' +
-            'Linux (Debian), Qt',
+            'Linux (Debian), Qt</p>',
           de:
             '<p>Ich habe mich bereits an einigen open-source Projekten ' +
             'beteiligt und auch eigene Programme entwickelt.</p>' +
@@ -73,11 +73,11 @@ angular.module('todoApp', ['ngSanitize'])
             'Generell bin ich an allem interessiert, das mit Web-Programmierung zu tun hat, ' +
             'unter anderem JavaScript und Python - ' +
             'diese kleine Website ist beispielsweise vollständig in JavaScript geschrieben.</p>' +
-            'Ich habe Erfahrungen mit: <br>' +
+            '<p>Ich habe Erfahrungen mit: <br>' +
             '<em>Python, JavaScript, C#</em>, Visual Basic, PHP, CoffeeScript<br>' +
             '<em>HTML, CSS, HTTP, three.js, Django</em>, jQuery, SVG, webapp2, OAuth<br>' +
             'NumPy, SymPy, SciPy, Sage, Open Cascade, Mathematica, MATLAB<br>' +
-            'Linux (Debian), Qt'
+            'Linux (Debian), Qt</p>'
         }
       },
       {
@@ -87,11 +87,11 @@ angular.module('todoApp', ['ngSanitize'])
           de: 'Lebenslauf'
         },
         body: {
-          en: '<br>You can download my CV <a href=cv-marko-knoebl.pdf target="_blank">here</a>.',
+          en: '<p><br>You can download my CV <a href=cv-marko-knoebl.pdf target="_blank">here</a>.</p>',
           de:
-            '<br>Mein Lebenslauf steht ' +
+            '<p><br>Mein Lebenslauf steht ' +
             '<a href=cv-marko-knoebl.pdf target="_blank">hier</a> ' +
-            'zum Download.'
+            'zum Download.</p>'
         }
       },
       {
