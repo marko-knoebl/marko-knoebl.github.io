@@ -3,14 +3,13 @@
 <html>
   <head>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular-sanitize.js"></script>
     <script src="website.js"></script>
     <link rel="stylesheet" href="website.css">
   </head>
   <body ng-app="todoApp" ng-controller="WebsiteController as website">
     <h2>{{website.contents[website.selected].title[website.language]}}</h2>
-    <div>
-      {{website.contents[website.selected].body[website.language]}}
-    </div>
+    <div ng-bind-html="website.contents[website.selected].body[website.language]"></div>
     <ul>
       <li ng-repeat="(key, content_) in website.contents track by $index">
         <a ng-click="website.selected=$index">{{content_.title[website.language]}}</a>
