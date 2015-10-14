@@ -5,6 +5,8 @@
     <!--angular-->
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular-sanitize.js"></script>
+    <!--jQuery-->
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
     <!--bootstrap-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
@@ -13,17 +15,31 @@
     <link rel="stylesheet" href="website.css">
   </head>
   <body ng-app="todoApp" ng-controller="WebsiteController as website">
-    <h2>{{website.contents[website.selected].title[website.language]}}</h2>
-    <div ng-bind-html="website.contents[website.selected].body[website.language]"></div>
-    <ul>
-      <li ng-repeat="(key, content_) in website.contents track by $index">
-        <a href="" ng-click="website.selected=$index">{{content_.title[website.language]}}</a>
-      </li>
-    </ul>
-    <ul>
-      <li ng-repeat="(key, value) in website.langs track by $index">
-        <a href="" ng-click="website.language=key">{{value}}</a>
-      </li>
-    </ul>
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="">Karuga</a>
+        </div>
+        <div>
+          <ul class="nav navbar-nav">
+            <li ng-repeat="(key, content) in website.contents track by $index">
+              <a href="" ng-click="website.selected=$index">{{content.title[website.language]}}</a>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="">{{website.langs[website.language]}}<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li ng-repeat="(key, value) in website.langs track by $index">
+                  <a href="" ng-click="website.language=key">{{value}}</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+      <h1>{{website.contents[website.selected].title[website.language]}}</h1>
+      <div ng-bind-html="website.contents[website.selected].body[website.language]"></div>
+    </div>
   </body>
 </html>
