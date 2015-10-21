@@ -5,6 +5,7 @@
     <!--angular-->
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular-sanitize.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular-route.min.js"></script>
     <!--jQuery-->
     <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
     <!--bootstrap-->
@@ -23,7 +24,7 @@
         <div>
           <ul class="nav navbar-nav">
             <li ng-repeat="(key, content) in website.contents track by $index">
-              <a href="" ng-click="website.selected=$index">{{content.title[website.language]}}</a>
+              <a href="#/{{content.name}}/{{website.language}}">{{content.title[website.language]}}</a>
             </li>
             <li class="dropdown">
               <a class="dropdown-toggle" data-toggle="dropdown" href="">{{website.langs[website.language]}}<span class="caret"></span></a>
@@ -38,8 +39,9 @@
       </div>
     </nav>
     <div class="container">
-      <h1>{{website.contents[website.selected].title[website.language]}}</h1>
-      <div ng-bind-html="website.contents[website.selected].body[website.language]"></div>
+      <div ng-view>
+          <!--Template text will be placed here-->
+      </div>
     </div>
   </body>
 </html>
