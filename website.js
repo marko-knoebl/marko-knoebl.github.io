@@ -1,52 +1,49 @@
 angular.module('todoApp', ['ngSanitize', 'ngRoute'])
   .config(function($routeProvider) {
     $routeProvider.when('/:topic/:lang', {
-      templateUrl: function(params) {return 'templates/' + params.topic + '_' + params.lang + '.html';}
+      templateUrl: function(params) {return 'templates/' + params.topic + '_' + params.lang + '.html';},
+      controller: 'WebsiteController'
     });
   })
-  .controller('WebsiteController', function() {
-
+  .controller('WebsiteController', function($scope, $location) {
+    var parts = $location.path().split('/');
+    this.topic = parts[1];
+    this.language = parts[2];
     this.langs = {
       'en': 'English',
       'de': 'Deutsch'
     };
-    this.contents = [
-      {
-        name: 'aboutme',
+    this.contentsOrder = ['aboutme', 'programming', 'cv', 'teaching', 'contact'];
+    this.contents = {
+      aboutme:{
         title: {
           en: 'About Me',
           de: 'Über Mich'
         }
       },
-      {
-        name: 'programming',
+      programming:{
         title: {
           en: 'Programming',
           de: 'Softwareentwicklung'
         }
       },
-      {
-        name: 'cv',
+      cv:{
         title: {
           en: 'Curriculum Vitae',
           de: 'Lebenslauf'
         }
       },
-      {
-        name: 'teaching',
+      teaching:{
         title: {
           en: 'Teaching',
           de: 'Unterricht'
         }
       },
-      {
-        name: 'contact',
+      contact:{
         title: {
           en: 'Contact',
           de: 'Kontakt'
         }
       }
-    ];
-    this.selected = 0;
-    this.language = 'en';
+    };
   });
