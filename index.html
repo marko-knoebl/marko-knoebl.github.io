@@ -23,7 +23,7 @@
         </div>
         <div>
           <ul class="nav navbar-nav">
-            <li ng-repeat="content in website.contentsOrder">
+            <li ng-repeat="content in website.contentsOrder" ng-class="{active: website.topic==content}">
               <a href="#/{{content + '/' + website.language}}" ng-click="website.topic=content">{{website.contents[content].title[website.language]}}</a>
             </li>
             <li class="dropdown">
