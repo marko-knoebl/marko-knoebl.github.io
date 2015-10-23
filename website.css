@@ -2,3 +2,7 @@
   text-decoration: line-through;
   color: grey;
 }
+/*remove dotted outline from clicked links*/
+a:focus {
+  outline: none;
+}
