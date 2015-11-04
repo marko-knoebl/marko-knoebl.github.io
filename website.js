@@ -18,7 +18,7 @@ angular.module('todoApp', ['ngSanitize', 'ngRoute'])
       'en': 'English',
       'de': 'Deutsch'
     };
-    this.contentsOrder = ['aboutme', 'programming', 'cv', 'teaching', 'contact'];
+    this.contentsOrder = ['aboutme', 'programming', /*'cv',*/ 'teaching', 'contact'];
     this.contents = {
       aboutme:{
         title: {
@@ -32,12 +32,12 @@ angular.module('todoApp', ['ngSanitize', 'ngRoute'])
           de: 'Softwareentwicklung'
         }
       },
-      cv:{
+      /*cv:{
         title: {
           en: 'Curriculum Vitae',
           de: 'Lebenslauf'
         }
-      },
+      },*/
       teaching:{
         title: {
           en: 'Teaching',
