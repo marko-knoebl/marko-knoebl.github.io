@@ -10,13 +10,16 @@
     <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
     <!--bootstrap-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="material/css/material.min.css">
+    <link rel="stylesheet" href="material/css/roboto.min.css">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="material/js/material.min.js"></script>
 
     <script src="website.js"></script>
     <link rel="stylesheet" href="website.css">
   </head>
   <body ng-app="todoApp" ng-controller="WebsiteController as website">
-    <nav class="navbar navbar-default">
+    <nav class="navbar navbar">
       <div class="container">
         <div class="navbar-header">
           <a class="navbar-brand" href="">Marko Knöbl</a>
@@ -39,8 +42,12 @@
       </div>
     </nav>
     <div class="container">
-      <div ng-view>
-          <!--Template text will be placed here-->
+      <div class="panel panel-default">
+        <div class="panel-body">
+          <div ng-view>
+              <!--Template text will be placed here-->
+          </div>
+        </div>
       </div>
     </div>
   </body>

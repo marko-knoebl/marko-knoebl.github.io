@@ -52,3 +52,5 @@ angular.module('todoApp', ['ngSanitize', 'ngRoute'])
       }
     };
   });
+
+$.material.init();
