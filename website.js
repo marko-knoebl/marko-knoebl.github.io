@@ -1,4 +1,4 @@
-angular.module('todoApp', ['ngSanitize', 'ngRoute'])
+angular.module('karugaWebsiteApp', ['ngSanitize', 'ngRoute'])
   .config(function($routeProvider) {
     $routeProvider.when('/:topic/:lang', {
       templateUrl: function(params) {return 'templates/' + params.topic + '_' + params.lang + '.html';},
