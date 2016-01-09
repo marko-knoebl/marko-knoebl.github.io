@@ -1,0 +1,105 @@
+{
+  "basics": {
+    "name": "Marko Knöbl",
+    "label": "Software Engineer",
+    "picture": "",
+    "email": "marko.kn@gmail.com",
+    "phone": "+43 680 2306962",
+    "website": "http://karuga.eu",
+    "summary": "Software engineer and teacher from Vienna, Austria.",
+    "location": {
+      "address": "Baumgarten 21",
+      "postalCode": "7122",
+      "city": "Gols",
+      "countryCode": "AT",
+      "region": "Burgenland",
+      "dateOfBirth": "1988-04-26"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "marko-knoebl",
+        "url": "https://github.com/marko-knoebl"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "NMS Kittsee",
+      "position": "Middle school math teacher",
+      "startDate": "2015-10-09",
+      "endDate": "present",
+      "summary": "Substitute for a teacher on maternity leave",
+      "website": "http://www.nms-kittsee.at"
+    },
+    {
+      "company": "self-employed",
+      "position": "Freelance developer",
+      "startDate": "2014-04",
+      "endDate": "2015-10",
+      "summary": "Web development, mathematical algorithms",
+      "highlights": [
+        "Front-end web development using JavaScript, jQuery, WebGL, Bootstrap, AngularJS, Material Design",
+        "Back-end web development using Python, Django, nginx, AWS, Docker",
+        "Development and implementation of sophisticated mathematical algorithms"
+      ]
+    },
+    {
+      "company": "GRG3 Hagenmüllergasse",
+      "position": "Secondary school teacher",
+      "startDate": "2013-09-01",
+      "endDate": "2014-08-26",
+      "website": "http://grg3.at",
+      "summary": "Secondary school teacher for Mathematics and Geometry"
+    },
+    {
+      "company": "Vienna Technical University",
+      "position": "Teaching Assistant",
+      "website": "https://tuwien.ac.at",
+      "startDate": "2009-10-01",
+      "endDate": "2012-02-29",
+      "summary": "Teaching assistant for various university courses (\"Introduction to mathematical software\", \"Basics course for architecture\" and \"geometry and CAD\")"
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "CISV",
+      "position": "Youth Leader",
+      "website": "http://cisv.org",
+      "startDate": "2011-06",
+      "endDate": "2015-04",
+      "summary": "Leader / supervisor at international exchange programs in various countries (Italy, Finland, Canada, UK)"
+    },
+    {
+      "organization": "Bonfaremo",
+      "position": "School aide",
+      "website": "http://bonfaremo.org",
+      "startDate": "2013-02-01",
+      "endDate": "2013-02-17",
+      "summary": "Assisting at schools in Ngama (Kenya) and Kisangara (Tanzania)"
+    }
+  ],
+  "education": [
+    {
+      "institution": "Vienna Technical University",
+      "area": "Teacher training program in Mathematics and Descriptive Geometry",
+      "studyType": "Master",
+      "startDate": "2006-09-22",
+      "endDate": "2013-07-29"
+    }
+  ],
+  "languages": [
+    {
+      "language": "German",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Fluent"
+    },
+    {
+      "language": "French",
+      "fluency": "Intermediate"
+    }
+  ]
+}
