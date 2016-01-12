@@ -2,7 +2,7 @@ angular.module('resume', [])
   .directive('resume', ['$http', function($http) {
     return {
       restrict: 'E',
-      templateUrl: 'templates/resume.html',
+      templateUrl: 'templates/resume-template-angular-theme:flat.html',
       controller: function($scope) {
         $http({method: 'GET', url:'resume.json'})
         .then(function(result) {
