@@ -1,23 +1,4 @@
-angular.module('resume', [])
-  .directive('resume', ['$http', function($http) {
-    return {
-      restrict: 'E',
-      templateUrl: 'templates/resume-template-angular-theme:flat.html',
-      controller: function($scope) {
-        $http({method: 'GET', url:'resume.json'})
-        .then(function(result) {
-          $scope.data = result.data;
-          var topics = ['basics', 'work', 'volunteer', 'education', 'awards', 'publications',
-                        'skills', 'languages', 'interests', 'references'];
-          topics.forEach(function(topic) {
-            $scope[topic] = $scope.data[topic];
-          });
-        });
-      }
-    }
-  }]);
-
-angular.module('karugaWebsiteApp', ['ngSanitize', 'ngRoute', 'resume'])
+angular.module('karugaWebsiteApp', ['ngSanitize', 'ngRoute', 'ng-jsonresume'])
   .config(function($routeProvider) {
     $routeProvider.when('/:topic/:lang', {
       templateUrl: function(params) {return 'templates/' + params.topic + '_' + params.lang + '.html';},
