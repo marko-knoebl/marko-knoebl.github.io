@@ -1,0 +1,105 @@
+{
+  "basics": {
+    "name": "Marko Knöbl",
+    "label": "Softwareentwickler",
+    "picture": "",
+    "email": "marko.kn@gmail.com",
+    "phone": "+43 680 2306962",
+    "website": "http://karuga.eu",
+    "summary": "Softwareentwickler und Lehrer aus Wien",
+    "location": {
+      "address": "Baumgarten 21",
+      "postalCode": "7122",
+      "city": "Gols",
+      "countryCode": "AT",
+      "region": "Burgenland",
+      "dateOfBirth": "1988-04-26"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "marko-knoebl",
+        "url": "https://github.com/marko-knoebl"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "NMS Kittsee",
+      "position": "Mittelschullehrer",
+      "startDate": "2015-10-09",
+      "endDate": "heute",
+      "website": "http://www.nms-kittsee.at",
+      "summary": "Mathematiklehrer (Karenzvertretung)"
+    },
+    {
+      "company": "selbstständig",
+      "position": "Softwareentwickler",
+      "startDate": "2014-04",
+      "endDate": "2015-10",
+      "summary": "Web-Entwicklung, Mathemische Algorithmen",
+      "highlights": [
+        "Front-end Web-Entwicklung mit JavaScript, jQuery, WebGL, AngularJS, Bootstrap",
+        "Back-end Web-Entwicklung mit Python, Django, nginx, AWS, Docker",
+        "Konzeption und Implementierung ausgereifter mathematischer Algorithmen"
+      ]
+    },
+    {
+      "company": "GRG3 Hagenmüllergasse",
+      "position": "Gymnasiallehrer (Unterrichtspraktikant)",
+      "startDate": "2013-09-01",
+      "endDate": "2014-08-26",
+      "website": "http://grg3.at",
+      "summary": "Gymnasiallehrer für Mathematik und Geometrie"
+    },
+    {
+      "company": "TU Wien",
+      "position": "Studienassistent, Tutor",
+      "website": "https://tuwien.ac.at",
+      "startDate": "2009-10-01",
+      "endDate": "2012-02-29",
+      "summary": "Studienassistent und tutor für verschiedene Lehrveranstaltungen (\"Einführung in die mathematische Software\" \"Grundkurs Architektur und Darstellung\" und \"Geometrie und CAD\")"
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "CISV",
+      "position": "Jugendbetreuer",
+      "website": "http://cisv.org",
+      "startDate": "2011-06",
+      "endDate": "2015-04",
+      "summary": "Betreuer bei internationalen Austauschcamps in verschiedenen Ländern (Italien, Finnland, Kanada, England)"
+    },
+    {
+      "organization": "Bonfaremo",
+      "position": "Schulhilfskraft",
+      "website": "http://bonfaremo.org",
+      "startDate": "2013-02-01",
+      "endDate": "2013-02-17",
+      "summary": "Aushilfe bei Schulen in Ngama (Kenya) and Kisangara (Tansania)"
+    }
+  ],
+  "education": [
+    {
+      "institution": "TU Wien",
+      "area": "Lehramtsstudium für Mathematik und Darstellende Geometrie",
+      "studyType": "Magister",
+      "startDate": "2006-09-22",
+      "endDate": "2013-07-29"
+    }
+  ],
+  "languages": [
+    {
+      "language": "Deutsch",
+      "fluency": "Muttersprache"
+    },
+    {
+      "language": "Englisch",
+      "fluency": "Fließend"
+    },
+    {
+      "language": "Französisch",
+      "fluency": "Grundlegende Kenntnisse"
+    }
+  ]
+}
