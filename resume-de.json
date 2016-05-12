@@ -8,11 +8,11 @@
     "website": "http://karuga.eu",
     "summary": "Softwareentwickler und Lehrer aus Wien",
     "location": {
-      "address": "Baumgarten 21",
-      "postalCode": "7122",
-      "city": "Gols",
+      "address": "Aspangstraße 15/3",
+      "postalCode": "1030",
+      "city": "Wien",
       "countryCode": "AT",
-      "region": "Burgenland",
+      "region": "Wien",
       "dateOfBirth": "1988-04-26"
     },
     "profiles": [
@@ -25,24 +25,32 @@
   },
   "work": [
     {
-      "company": "NMS Kittsee",
-      "position": "Mittelschullehrer",
-      "startDate": "2015-10-09",
-      "endDate": "heute",
-      "website": "http://www.nms-kittsee.at",
-      "summary": "Mathematiklehrer (Karenzvertretung)"
-    },
-    {
       "company": "selbstständig",
       "position": "Softwareentwickler",
       "startDate": "2014-04",
-      "endDate": "2015-10",
+      "endDate": "heute",
       "summary": "Web-Entwicklung, Mathemische Algorithmen",
       "highlights": [
-        "Front-end Web-Entwicklung mit JavaScript, jQuery, WebGL, AngularJS, Bootstrap",
-        "Back-end Web-Entwicklung mit Python, Django, nginx, AWS, Docker",
+        "Front-end Web-Entwicklung mit JavaScript, jQuery, WebGL, AngularJS, Bootstrap, Material Design",
+        "Back-end Web-Entwicklung mit Python, Django, nginx, AWS, Docker, node.js",
         "Konzeption und Implementierung ausgereifter mathematischer Algorithmen"
       ]
+    },
+    {
+      "company": "SmartNinja",
+      "position": "IT Kursleiter",
+      "startDate": "2016-04-26",
+      "endDate": "heute",
+      "summary": "Kursleiter zu den Themen \"Web Entwicklung\" und \"Python Programmierung\"",
+      "website": "https://www.smartninja.org/"
+    },
+    {
+      "company": "NMS Kittsee",
+      "position": "Mittelschullehrer",
+      "startDate": "2015-10-09",
+      "endDate": "2016-03-30",
+      "website": "http://www.nms-kittsee.at",
+      "summary": "Mathematiklehrer (Karenzvertretung)"
     },
     {
       "company": "GRG3 Hagenmüllergasse",
@@ -58,48 +66,56 @@
       "website": "https://tuwien.ac.at",
       "startDate": "2009-10-01",
       "endDate": "2012-02-29",
-      "summary": "Studienassistent und tutor für verschiedene Lehrveranstaltungen (\"Einführung in die mathematische Software\" \"Grundkurs Architektur und Darstellung\" und \"Geometrie und CAD\")"
+      "summary": "Studienassistent und Tutor für verschiedene Lehrveranstaltungen (\"Einführung in die mathematische Software\", \"Grundkurs Architektur und Darstellung\" und \"Geometrie und CAD\")"
     }
   ],
   "volunteer": [
     {
       "organization": "CISV",
-      "position": "Jugendbetreuer",
+      "position": "Youth Leader",
       "website": "http://cisv.org",
       "startDate": "2011-06",
       "endDate": "2015-04",
-      "summary": "Betreuer bei internationalen Austauschcamps in verschiedenen Ländern (Italien, Finnland, Kanada, England)"
+      "summary": "Leader / supervisor at international exchange programs in various countries (Italy, Finland, Canada, UK)"
     },
     {
       "organization": "Bonfaremo",
-      "position": "Schulhilfskraft",
+      "position": "School aide",
       "website": "http://bonfaremo.org",
       "startDate": "2013-02-01",
       "endDate": "2013-02-17",
-      "summary": "Aushilfe bei Schulen in Ngama (Kenya) and Kisangara (Tansania)"
+      "summary": "Assisting at schools in Ngama (Kenya) and Kisangara (Tanzania)"
+    },
+    {
+      "organization": "Openmoko",
+      "position": "Wiki Administrator",
+      "website": "http://wiki.openmoko.org",
+      "startDate": "2009-08-31",
+      "endDate": "2010-09-21",
+      "summary": "Administrator des Wikis (und damit der Hauptwebsite) des Openmoko projects"
     }
   ],
   "education": [
     {
-      "institution": "TU Wien",
-      "area": "Lehramtsstudium für Mathematik und Darstellende Geometrie",
-      "studyType": "Magister",
+      "institution": "Vienna Technical University",
+      "area": "Teacher training program in Mathematics and Descriptive Geometry",
+      "studyType": "Master",
       "startDate": "2006-09-22",
       "endDate": "2013-07-29"
     }
   ],
   "languages": [
     {
-      "language": "Deutsch",
-      "fluency": "Muttersprache"
+      "language": "German",
+      "fluency": "Native speaker"
     },
     {
-      "language": "Englisch",
-      "fluency": "Fließend"
+      "language": "English",
+      "fluency": "Fluent"
     },
     {
-      "language": "Französisch",
-      "fluency": "Grundlegende Kenntnisse"
+      "language": "French",
+      "fluency": "Intermediate"
     }
   ]
 }

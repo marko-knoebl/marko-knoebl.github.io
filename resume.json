@@ -7,11 +7,11 @@
     "phone": "+43 680 2306962",
     "website": "http://karuga.eu",
     "location": {
-      "address": "Baumgarten 21",
-      "postalCode": "7122",
-      "city": "Gols",
+      "address": "Aspangstraße 15/3",
+      "postalCode": "1030",
+      "city": "Wien",
       "countryCode": "AT",
-      "region": "Burgenland",
+      "region": "Wien",
       "dateOfBirth": "1988-04-26"
     },
     "profiles": [
@@ -24,23 +24,31 @@
   },
   "work": [
     {
-      "company": "NMS Kittsee",
-      "position": "Middle school math teacher",
-      "startDate": "2015-10-09",
-      "endDate": "present",
-      "website": "http://www.nms-kittsee.at"
-    },
-    {
       "company": "self-employed",
       "position": "Freelance developer",
       "startDate": "2014-04",
-      "endDate": "2015-10",
+      "endDate": "present",
       "summary": "Web development, mathematical algorithms",
       "highlights": [
         "Front-end web development using HTML5, JavaScript, jQuery, WebGL, Bootstrap, AngularJS",
-        "Back-end web development using Python, Django, nginx, AWS, Docker",
+        "Back-end web development using Python, Django, nginx, AWS, Docker, node.js",
         "Development and implementation of sophisticated mathematical algorithms using Python, NumPy"
       ]
+    },
+    {
+      "company": "SmartNinja",
+      "position": "IT course instructor",
+      "startDate": "2016-04-26",
+      "endDate": "present",
+      "summary": "Instructor for courses on the topics \"Web Development\" and \"Python Development\"",
+      "website": "https://www.smartninja.org/"
+    },
+    {
+      "company": "NMS Kittsee",
+      "position": "Middle school math teacher (substitue for a teacher on maternity leave)",
+      "startDate": "2015-10-09",
+      "endDate": "2016-03-30",
+      "website": "http://www.nms-kittsee.at"
     },
     {
       "company": "GRG3 Hagenmüllergasse",
@@ -75,6 +83,14 @@
       "startDate": "2013-02-01",
       "endDate": "2013-02-17",
       "summary": "Assisting at schools in Ngama (Kenya) and Kisangara (Tanzania)"
+    },
+    {
+      "organization": "Openmoko",
+      "position": "Wiki admin",
+      "website": "http://wiki.openmoko.org",
+      "startDate": "2009-08-31",
+      "endDate": "2010-09-21",
+      "summary": "Sole admin of the wiki (and main website) of the Openmoko project, overseeing over 2000 pages"
     }
   ],
   "education": [
