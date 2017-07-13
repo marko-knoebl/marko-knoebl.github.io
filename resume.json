@@ -30,8 +30,8 @@
       "endDate": "present",
       "summary": "Web development, mathematical algorithms",
       "highlights": [
-        "Front-end web development using HTML5, JavaScript, jQuery, WebGL, Bootstrap, AngularJS",
-        "Back-end web development using Python, Django, nginx, AWS, Docker, node.js",
+        "Front-end web development using HTML5, JavaScript, jQuery, WebGL, Bootstrap, AngularJS, React",
+        "Back-end web development using node.js, Python, Django, nginx, AWS",
         "Development and implementation of sophisticated mathematical algorithms using Python, NumPy"
       ]
     },

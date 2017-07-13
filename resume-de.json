@@ -31,8 +31,8 @@
       "endDate": "heute",
       "summary": "Web-Entwicklung, Mathemische Algorithmen",
       "highlights": [
-        "Front-end Web-Entwicklung mit JavaScript, jQuery, WebGL, AngularJS, Bootstrap, Material Design",
-        "Back-end Web-Entwicklung mit Python, Django, nginx, AWS, Docker, node.js",
+        "Front-end Web-Entwicklung mit JavaScript, jQuery, WebGL, React, AngularJS, Bootstrap, Material Design",
+        "Back-end Web-Entwicklung mit node.js, Python, Django, nginx, AWS",
         "Konzeption und Implementierung ausgereifter mathematischer Algorithmen"
       ]
     },
