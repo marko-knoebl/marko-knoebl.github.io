@@ -44,6 +44,14 @@
       "website": "https://www.smartninja.org/"
     },
     {
+      "company": "Signtime",
+      "position": "Python developer",
+      "startDate": "2017-11",
+      "endDate": "2017-07-07",
+      "summary": "Development of extensions to Autodesk Maya to support the creation of 3D-animated sign language avatars.",
+      "website": "http://www.signtime.tv/"
+    },
+    {
       "company": "NMS Kittsee",
       "position": "Middle school math teacher (substitue for a teacher on maternity leave)",
       "startDate": "2015-10-09",
