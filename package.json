@@ -1,0 +1,5 @@
+{
+  "scripts": {
+    "build": "node scripts/build.js"
+  }
+}
