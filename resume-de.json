@@ -5,8 +5,8 @@
     "picture": "",
     "email": "marko.kn@gmail.com",
     "phone": "+43 680 2306962",
-    "website": "http://karuga.eu",
-    "summary": "Softwareentwickler und Lehrer aus Wien",
+    "website": "https://karuga.eu",
+    "summary": "Softwareentwickler und Trainer aus Wien",
     "location": {
       "address": "Aspangstraße 15/3",
       "postalCode": "1030",
@@ -26,23 +26,37 @@
   "work": [
     {
       "company": "selbstständig",
+      "position": "IT Trainer",
+      "startDate": "2016-04-26",
+      "endDate": "jetzt",
+      "summary": "Trainer für IT-Kurse für Privatpersonen und Firmen",
+      "highlights": [
+        "React & Redux",
+        "Python Einsteiger & Fortgeschritten",
+        "Data Science mit Python",
+        "HTML, CSS & JavaScript",
+        "Progressive Web Apps"
+      ]
+    },
+    {
+      "company": "PPEDV",
+      "position": "IT trainer",
+      "startDate": "2017-08",
+      "endDate": "2018-08",
+      "summary": "Trainer für IT-Kurse",
+      "website": "https://ppedv.de"
+    },
+    {
+      "company": "selbstständig",
       "position": "Softwareentwickler",
       "startDate": "2014-04",
       "endDate": "heute",
       "summary": "Web-Entwicklung, Mathemische Algorithmen",
       "highlights": [
-        "Front-end Web-Entwicklung mit JavaScript, jQuery, WebGL, React, AngularJS, Bootstrap, Material Design",
-        "Back-end Web-Entwicklung mit node.js, Python, Django, nginx, AWS",
+        "Frontend Web-Entwicklung mit JavaScript, jQuery, WebGL, React.js",
+        "Backend Web-Entwicklung mit Python, Django, node.js",
         "Konzeption und Implementierung ausgereifter mathematischer Algorithmen"
       ]
-    },
-    {
-      "company": "SmartNinja",
-      "position": "IT Kursleiter",
-      "startDate": "2016-04-26",
-      "endDate": "heute",
-      "summary": "Kursleiter zu den Themen \"Web Entwicklung\" und \"Python Programmierung\"",
-      "website": "https://www.smartninja.org/"
     },
     {
       "company": "Signtime",
@@ -77,37 +91,11 @@
       "summary": "Studienassistent und Tutor für verschiedene Lehrveranstaltungen (\"Einführung in die mathematische Software\", \"Grundkurs Architektur und Darstellung\" und \"Geometrie und CAD\")"
     }
   ],
-  "volunteer": [
-    {
-      "organization": "CISV",
-      "position": "Youth Leader",
-      "website": "http://cisv.org",
-      "startDate": "2011-06",
-      "endDate": "2015-04",
-      "summary": "Leader / supervisor at international exchange programs in various countries (Italy, Finland, Canada, UK)"
-    },
-    {
-      "organization": "Bonfaremo",
-      "position": "School aide",
-      "website": "http://bonfaremo.org",
-      "startDate": "2013-02-01",
-      "endDate": "2013-02-17",
-      "summary": "Assisting at schools in Ngama (Kenya) and Kisangara (Tanzania)"
-    },
-    {
-      "organization": "Openmoko",
-      "position": "Wiki Administrator",
-      "website": "http://wiki.openmoko.org",
-      "startDate": "2009-08-31",
-      "endDate": "2010-09-21",
-      "summary": "Administrator des Wikis (und damit der Hauptwebsite) des Openmoko projects"
-    }
-  ],
   "education": [
     {
-      "institution": "Vienna Technical University",
-      "area": "Teacher training program in Mathematics and Descriptive Geometry",
-      "studyType": "Master",
+      "institution": "Teschnische Universität Wien",
+      "area": "Lehramtsstudium Mathematik und Darstellende Geometrie",
+      "studyType": "Magister",
       "startDate": "2006-09-22",
       "endDate": "2013-07-29"
     }
@@ -120,10 +108,6 @@
     {
       "language": "English",
       "fluency": "Fluent"
-    },
-    {
-      "language": "French",
-      "fluency": "Intermediate"
     }
   ]
 }
