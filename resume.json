@@ -5,7 +5,8 @@
     "picture": "",
     "email": "marko.kn@gmail.com",
     "phone": "+43 680 2306962",
-    "website": "http://karuga.eu",
+    "website": "https://karuga.eu",
+    "summary": "Software developer and trainer",
     "location": {
       "address": "Aspangstraße 15/3",
       "postalCode": "1030",
@@ -25,28 +26,42 @@
   "work": [
     {
       "company": "self-employed",
+      "position": "IT trainer",
+      "startDate": "2016-04-26",
+      "endDate": "present",
+      "summary": "Instructor for IT courses for companies and individuals",
+      "highlights": [
+        "React and Redux",
+        "Python beginner & advanced",
+        "Python and data science",
+        "HTML, CSS & JavaScript",
+        "Progressive Web Apps"
+      ]
+    },
+    {
+      "company": "PPEDV",
+      "position": "IT trainer",
+      "startDate": "2017-08",
+      "endDate": "2018-08",
+      "summary": "Instructor fo IT courses",
+      "website": "https://ppedv.de"
+    },
+    {
+      "company": "self-employed",
       "position": "Freelance developer",
       "startDate": "2014-04",
       "endDate": "present",
       "summary": "Web development, mathematical algorithms",
       "highlights": [
-        "Front-end web development using HTML5, JavaScript, jQuery, WebGL, Bootstrap, AngularJS, React",
-        "Back-end web development using node.js, Python, Django, nginx, AWS",
+        "Front-end web development using HTML5, JavaScript, jQuery, WebGL, Bootstrap, AngularJS",
+        "Back-end web development using Python, Django, nginx, AWS, Docker, node.js",
         "Development and implementation of sophisticated mathematical algorithms using Python, NumPy"
       ]
     },
     {
-      "company": "SmartNinja",
-      "position": "IT course instructor",
-      "startDate": "2016-04-26",
-      "endDate": "present",
-      "summary": "Instructor for courses on the topics \"Web Development\" and \"Python Development\"",
-      "website": "https://www.smartninja.org/"
-    },
-    {
       "company": "Signtime",
       "position": "Python developer",
-      "startDate": "2017-11",
+      "startDate": "2016-11",
       "endDate": "2017-07-07",
       "summary": "Development of extensions to Autodesk Maya to support the creation of 3D-animated sign language avatars.",
       "website": "http://www.signtime.tv/"
@@ -75,32 +90,6 @@
       "summary": "Teaching assistant for various university courses (\"Introduction to mathematical software\", \"Basics course for architecture\" and \"geometry and CAD\")"
     }
   ],
-  "volunteer": [
-    {
-      "organization": "CISV",
-      "position": "Youth Leader",
-      "website": "http://cisv.org",
-      "startDate": "2011-06",
-      "endDate": "2015-04",
-      "summary": "Leader / supervisor at international exchange programs in various countries (Italy, Finland, Canada, UK)"
-    },
-    {
-      "organization": "Bonfaremo",
-      "position": "School aide",
-      "website": "http://bonfaremo.org",
-      "startDate": "2013-02-01",
-      "endDate": "2013-02-17",
-      "summary": "Assisting at schools in Ngama (Kenya) and Kisangara (Tanzania)"
-    },
-    {
-      "organization": "Openmoko",
-      "position": "Wiki admin",
-      "website": "http://wiki.openmoko.org",
-      "startDate": "2009-08-31",
-      "endDate": "2010-09-21",
-      "summary": "Sole admin of the wiki (and main website) of the Openmoko project, overseeing over 2000 pages"
-    }
-  ],
   "education": [
     {
       "institution": "Vienna Technical University",
@@ -118,10 +107,6 @@
     {
       "language": "English",
       "fluency": "Fluent"
-    },
-    {
-      "language": "French",
-      "fluency": "Intermediate"
     }
   ]
 }
