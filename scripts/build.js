@@ -9,6 +9,7 @@ for (let pagename of pagenames) {
   const pagecontent = fs.readFileSync(`pages/${pagename}`, "utf-8");
   const fullPage = template.replace("{{content}}", pagecontent);
   fs.writeFileSync(`dist/${pagename}`, fullPage);
+  fs.writeFileSync(`pages/${pagename}`, fullPage);
 }
 
 // create resume pages
@@ -19,6 +20,8 @@ for (let lang of ["de", "en"]) {
   );
   const fullPage = template.replace("{{content}}", pagecontent);
   fs.writeFileSync(`dist/cv_${lang}.html`, fullPage);
+  fs.writeFileSync(`pages/cv_${lang}.html`, fullPage);
 }
 
 fsExtra.copySync("images", "dist/images");
+fsExtra.copySync("images", "pages/images");
