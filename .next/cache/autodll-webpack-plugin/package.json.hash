@@ -1,1 +1,0 @@
-{"name":"karuga-website","version":"0.1.0","private":true,"scripts":{"dev":"next dev","build":"next build","start":"next start"},"dependencies":{"@material-ui/core":"^4.8.0","@material-ui/icons":"^4.5.1","next":"9.1.6","react":"16.12.0","react-dom":"16.12.0"},"readme":"ERROR: No README data found!","_id":"karuga-website@0.1.0"}
